@@ -1,10 +1,17 @@
 import React from "react";
+
+function index() {
+  return <div></div>;
+}
+
+export default index;
+
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 //import App from './App';
 import TierCard from "./TierCard";
 import Titel from "./Titel";
-
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
